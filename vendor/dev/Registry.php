@@ -5,9 +5,7 @@ namespace dev;
 class Registry
 {
     use TSingleton;
-
     protected static array $properties = [];
-
     public function setProperty($name, $value) {
         self::$properties[$name] = $value;
     }
