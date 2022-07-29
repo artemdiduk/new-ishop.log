@@ -12,5 +12,6 @@ define("LAYOUT", ROOT . 'ishop');
 define("PATH", ROOT . 'http://new-ishop.loc');
 define("ADMIN", ROOT . 'http://new-ishop.loc/admin');
 define("NO_IMAGE", ROOT . '/uploads');
+define("WEBROOT", 'new-ishop.log');
 
 require_once ROOT . "/vendor/autoload.php";

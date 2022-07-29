@@ -62,9 +62,6 @@ class ErrorHandler
             require WWW . "/errors/production.php";
         }
 
-
-
-
     }
 
 }
